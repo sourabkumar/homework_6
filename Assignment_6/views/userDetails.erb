@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Assignment 4 - User Details</title>
+</head>
+<body>
+<ul> 
+    <li>full name: <%=@user.full_name %></li>
+    <li>email: <%=@user.email %></li>
+<b>Posts</b>
+        <% @user.posts.each do |post| %>
+        <li>post title: <%=post.title %></li>
+        <li>post body: <%=post.body %></li>
+         <% end %>
+</ul> 
+
+</body>
+</html>

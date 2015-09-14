@@ -1,0 +1,17 @@
+D, [2015-09-10T05:52:47.000259 #30906] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2015-09-10T05:52:47.019024 #30906] DEBUG -- :   [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 1]]
+D, [2015-09-10T05:53:23.787558 #30906] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2015-09-10T05:53:23.791132 #30906] DEBUG -- :   [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 1]]
+D, [2015-09-10T05:54:02.945387 #30906] DEBUG -- :   [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2015-09-10T05:54:02.948814 #30906] DEBUG -- :   [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 1]]
+D, [2015-09-10T05:54:19.902621 #30906] DEBUG -- :   [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-09-10T05:54:59.815249 #30906] DEBUG -- :   [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+D, [2015-09-10T05:55:03.783305 #30906] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+D, [2015-09-10T05:55:03.786489 #30906] DEBUG -- :   [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 1]]
+D, [2015-09-10T05:55:07.153258 #30906] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2015-09-10T05:55:07.156240 #30906] DEBUG -- :   [1m[35mPost Load (0.1ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+D, [2015-09-10T06:06:47.140561 #30906] DEBUG -- :   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+D, [2015-09-10T06:06:47.143560 #30906] DEBUG -- :   [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?  [["user_id", 2]]
+D, [2015-09-10T06:06:50.948757 #30906] DEBUG -- :   [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users"[0m
+D, [2015-09-10T06:06:54.538257 #30906] DEBUG -- :   [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+D, [2015-09-10T06:06:54.541793 #30906] DEBUG -- :   [1m[36mPost Load (0.2ms)[0m  [1mSELECT "posts".* FROM "posts" WHERE "posts"."user_id" = ?[0m  [["user_id", 2]]

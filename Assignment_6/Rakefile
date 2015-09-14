@@ -1,0 +1,7 @@
+# Rakefile
+
+require './app'
+#require 'sinatra'
+#require 'active_record'
+require 'sinatra/activerecord/rake'
+#require 'rake'
